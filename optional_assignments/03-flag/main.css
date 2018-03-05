@@ -1,0 +1,29 @@
+body {
+	margin: 40px auto;
+	max-width: 1120px;
+
+}
+
+.flag {
+	max-width: 1120px;
+}
+.stars {
+	background-color: blue;
+	position: absolute;
+	height: 280px;
+	width: 380px;
+}
+
+.stripes {
+	width: 100%;
+}
+
+.red_stripes {
+	background-color: red;
+	height: 40px;
+}
+
+.white_stripes {
+	background-color: white;
+	height: 40px;
+}
