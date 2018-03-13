@@ -1,0 +1,25 @@
+body {
+	background-color: silver;
+	font-family: sans-serif;
+
+}
+
+.ecard {
+	display: block;
+	background-color: white;
+}
+
+img {
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+
+p {
+	position: absolute;
+}
+
+a {
+	color: red;
+	text-decoration: none;
+}
