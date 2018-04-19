@@ -1,0 +1,43 @@
+body {
+    background: #fbd1e5 url(/images/header.jpg) no-repeat;
+    height: 100vh;
+    background-position: top;
+    background-size: contain;
+    color: grey;
+ }
+
+#navigation {
+	background-color: rgba(0,0,0,0);
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+#cakes img {
+    width: 300px;
+}
+
+.close {
+    display: none;
+}
+
+.front {
+    display: block;
+}
+
+#name {
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 6rem;
+}
+
+#home-link {
+    margin-left: 48%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+#home-link a {
+    color:gray;
+    font-size: 36px;
+    font-family: 'Amatic SC', cursive;
+}

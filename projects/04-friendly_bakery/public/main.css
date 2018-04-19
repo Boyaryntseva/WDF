@@ -1,0 +1,141 @@
+body {
+	background-image: url("https://c1.staticflickr.com/1/890/41530612121_3402e7acc7_c.jpg");
+    /* Full height */
+    height: 100vh; 
+    /* Center and scale the image nicely */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#navigation {
+	background-color: rgba(0,0,0,0);
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+#image1 {
+    position: absolute;
+    left: 75%;
+    top: 10%;
+}
+
+#image1 img {
+    height: 200px;
+	animation-name: fadein;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+#name h1{
+    position: absolute;
+    left: 35%;
+    top: 20%;
+    color: white;
+    animation-name: fadein;
+	animation-duration: 2s;
+    animation-fill-mode: forwards;
+    font-family: 'Amatic SC', cursive;
+    font-size: 7rem;
+}
+
+#info {
+    position: absolute;
+    left: 33%;
+    top: 42%;
+    color: white;
+    animation-name: fadein;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+}
+
+#bakery-menu {
+    width: 80%;
+    position: absolute;
+    left: 13%;
+    top: 50%;
+    font-size: 24px;
+}
+
+#bakery-menu a{
+    color: grey;
+}
+
+#image2 {
+    position: absolute;
+    left: 10%;
+    top: 65%;
+}
+
+#image2 img {
+    height: 200px;
+	animation-name: fadein;
+	animation-duration: 4s;
+	animation-fill-mode: forwards;
+}
+
+#cupcakes {
+    animation-name: fadein;
+	animation-duration: 5s;
+	animation-fill-mode: forwards;
+}
+
+#eclairs {
+    animation-name: fadein;
+	animation-duration: 5.25s;
+	animation-fill-mode: forwards;
+}
+
+#cakes {
+    animation-name: fadein;
+	animation-duration: 5.5s;
+	animation-fill-mode: forwards;
+}
+
+#macaroons {
+    animation-name: fadein;
+	animation-duration: 5.75s;
+	animation-fill-mode: forwards;
+}
+
+#get-email {
+    position: absolute;
+    left: 37%;
+    top: 80%;
+    color: white;
+    font-size: 20px;
+    animation-name: fadein;
+	animation-duration: 6s;
+	animation-fill-mode: forwards;
+}
+
+#request-email {
+    margin-left: 35%;
+}
+
+#request-email-link {
+    color: grey;
+}
+
+.hidden {
+    display: none;
+}
+
+.show-it {
+    display: block;
+}
+
+@keyframes fadein {
+    0% {
+        opacity:0;
+    }
+    50% {
+        opacity:0;
+    }
+    80% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}

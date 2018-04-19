@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Queen of Tarts</title>
+</head>
+<body>
+    <!-- 	Navigation -->
+	<nav id="navigation">
+		<div class="nav-wrapper">
+			<ul id="nav-mobile" class="right hide-on-med-and-down social-links">
+				<li><a href="https://github.com/olgaboiar" target="blank">
+					<i class="fa fa-facebook fa-2x" style="color:#fff;" title="Github"></i>
+					</a></li>
+                <li><a href="https://www.linkedin.com/in/olga-boiar/" target="blank">
+					<i class="fa fa-linkedin fa-2x" style="color:#fff;" title="LinkedIn"></i>
+				    </a></li>
+                <li><a href="https://www.instagram.com/agirlwhowantstocode/" target="blank">
+					<i class="fa  fa-instagram  fa-2x" style="color:#fff;" title="Instagram"></i></a></li>
+			</ul>
+		</div>
+	</nav>
+    <!-- Name and Menu -->
+    <div>
+        <div id="image1"><img src="https://c1.staticflickr.com/1/885/40829641244_d4cf0efa5c_o.png"></div>
+        <div id="name"><h1>Queen of Tarts</h1></div>
+        <div id="info"><h5>YOUR NEIGHBORHOOD ARTISAN BAKERY</h5></div>
+        <div class="row" id="bakery-menu">
+            <div class="col s12 m6 l3" id="cupcakes"><a href="/cupcakes">Cupcakes</a></div>
+            <div class="col s12 m6 l3" id="eclairs"><a href="/eclairs">Eclairs</a></div>
+            <div class="col s12 m6 l3" id="cakes"><a href="/cakes">Cakes</a></div>
+            <div class="col s12 m6 l3" id="macaroons"><a href="/macaroons">Macarons</a></div>
+        </div>
+        <div id="get-email"><a id="request-email-link" href="">Get email with full produce catalogue</a></div>
+        <div id="image2"><img src="https://c1.staticflickr.com/1/795/41531670421_7aed823ed5_o.png"></div>
+    </div>
+    <!-- Email Form -->
+    <div class="row hidden" id="request-email">
+        <div class="col s12 m6 center">
+            <div class="card pink lighten-4">
+                <div class="card-content white-text">
+                    <span class="card-title">If you want to receive an email with the catalogue containing all our products, fill in this form!</span>
+                    <div class="row">
+                        <form class="col s12" action="/contact" method="POST">
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input  id="first_name" type="text" class="validate" name="name">
+                                        <label for="first_name">First Name</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <input id="last_name" type="text" class="validate">
+                                    <label for="last_name">Last Name</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="email" type="email" class="validate" name="email">
+                                    <label for="email">Email</label>
+                                </div>
+                            </div>
+                            <button class="btn waves-effect waves-light pink lighten-2" type="submit" id="submit-email">Submit
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
+
